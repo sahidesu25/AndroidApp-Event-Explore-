@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue_Lavender" >
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue_Lavender">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="          Event Information"
+
+        android:textSize="30dp"
+        android:background="@color/Blue_LightBlue"/>
+
+
+
+    <TextView
+        android:text="EventName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/eventname"
+        android:layout_width="match_parent"
+        android:background="@color/Thistle"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="SelectCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spinner2"
+       android:background="@drawable/spinnerbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/SelectCategory"
+       />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/Thistle"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:text="StartDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/startdayandtime"
+            android:layout_width="match_parent"
+
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginStart="200dp"
+            android:layout_width="50dp"
+
+            android:id="@+id/button1"
+android:background="@drawable/datebuttonimage"
+            android:layout_height="50dp"
+           />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:text="StartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/enddayandtime"
+            android:layout_width="match_parent"
+
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginStart="200dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:background="@drawable/timebutton"
+            android:id="@+id/button2"
+
+
+          />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:text="EndDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/endday"
+            android:layout_width="match_parent"
+
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginStart="200dp"
+            android:layout_width="50dp"
+            android:id="@+id/button3"
+            android:layout_height="50dp"
+            android:background="@drawable/datebuttonimage"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:text="EndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/endtime"
+            android:layout_width="match_parent"
+
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginStart="200dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/button4"
+            android:background="@drawable/timebutton"
+
+
+          />
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:text="EnterLogoImageURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/logourl"
+        android:layout_width="match_parent"
+android:background="@color/Thistle"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="EventPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/eventprice"
+        android:background="@color/Thistle"
+        android:layout_width="match_parent"
+
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Maximmum Capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/maximmumcapacity"
+        android:background="@color/Thistle"
+        android:layout_width="match_parent"
+
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/rating"
+        android:background="@color/Thistle"
+        android:layout_width="match_parent"
+
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="VedioURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/vediourl"
+        android:layout_width="match_parent"
+        android:background="@color/Thistle"
+
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_toLeftOf="@+id/more2"
+        android:layout_margin="5dp"
+        rv_centered="true">
+    <Button
+        android:layout_width="match_parent"
+        android:background="@color/Blue_LightSteelBlue"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_gravity="right" />
+    </com.andexert.library.RippleView>
+
+
+</LinearLayout>
+    </ScrollView>
+    </com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

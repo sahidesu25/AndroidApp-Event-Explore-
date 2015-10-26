@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/White_transparent_white_hex_15">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/viewFlipper"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+       >
+
+    </ViewFlipper>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewFlipper"
+
+
+        />
+</RelativeLayout>

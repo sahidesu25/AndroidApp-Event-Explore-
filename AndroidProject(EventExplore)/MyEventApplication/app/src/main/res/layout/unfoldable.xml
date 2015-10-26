@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="12dp"
+        android:padding="12dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollingCache="false"
+        android:clipToPadding="false"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="outsideOverlay" />
+
+    <View
+        android:id="@+id/touch_interceptor_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/details_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Blue_DarkSlateBlue"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/details_image"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/details_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#fff"
+
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="4dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp"
+
+            android:background="#fff" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tablelayout"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp">
+
+            <TableRow>
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/clockicon"
+                    android:textStyle="bold"
+                    android:id="@+id/timeimage"
+                    />
+                <TextView
+                    android:text="Date and time"
+                    android:id="@+id/datetime"/>
+            </TableRow>
+            <TableRow>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/location2"
+                    android:textStyle="bold"
+                    android:id="@+id/locationimage"
+                    />
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="170dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="Address"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:id="@+id/locationans"
+                        />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ticket2"
+                    android:textStyle="bold"
+                    android:id="@+id/ticketimage"
+                    />
+                <TextView
+                    android:text="no of tickets"
+                    android:id="@+id/noofticketsans"/>
+            </TableRow>
+            </TableLayout>
+            <ImageView
+
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/logoimage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/barcode"
+
+                android:layout_weight="0.47" />
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <com.alexvasilkov.foldablelayout.UnfoldableView
+        android:id="@+id/unfoldable_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

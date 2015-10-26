@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/cardview"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="4dp"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/Thistle"
+    >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@color/dim_foreground_disabled_material_light">
+            <ImageView
+                android:layout_width="100dp"
+                android:id="@+id/image"
+
+                android:layout_height="100dp"
+                android:layout_marginLeft="1dp"
+                android:src="@drawable/coldplay1"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitXY"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lion"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/name"
+                android:textColor="@color/Blue_DodgerBlue"/>
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stepSize="0.5"
+                android:numStars="5"
+                android:layout_below="@+id/name"
+                android:rating="2.5"
+                style="?android:attr/ratingBarStyleSmall"
+                android:id="@+id/rating"
+                />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tablelayout"
+                android:layout_below="@+id/rating"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp">
+
+                <TableRow>
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/clockicon"
+                        android:textStyle="bold"
+                        android:id="@+id/timeimage"
+                        />
+                    <TextView
+                        android:text="Date and time"
+                        android:id="@+id/datetime"/>
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/location2"
+                        android:textStyle="bold"
+                        android:id="@+id/locationimage"
+                        />
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="170dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:text="Address"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:id="@+id/locationans"
+                            />
+                    </LinearLayout>
+
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:id="@+id/swipe"
+
+      />
+
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+

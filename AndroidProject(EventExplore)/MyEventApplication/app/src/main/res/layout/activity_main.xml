@@ -1,0 +1,54 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#DADAE6"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </include>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            tools:context="com.mylab5application.MasterDataFlowActivity" tools:ignore="MergeRootFrame"
+            ></FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drawer"
+        android:layout_width="240dp"
+        android:background="#ffcccccc"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <ImageView
+            android:id="@+id/header"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/header1"/>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/drawer_list"
+            android:choiceMode="none"
+            android:layout_height="fill_parent"
+            android:layout_width="match_parent" />
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
+

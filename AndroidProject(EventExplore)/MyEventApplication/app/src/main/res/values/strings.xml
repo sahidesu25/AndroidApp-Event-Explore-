@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyEventApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_event_view_pager">EventViewPager</string>
+    <string name="title_activity_saved_events">SavedEventsActivity</string>
+    <string name="title_activity_unfoldable">UnfoldableActivity</string>
+    <string name="title_activity_main_">Main_Activity</string>
+    <string name="SelectCategory">Select Category</string>
+    <string name="ok">OK</string>
+
+        <string name="title_activity_login">login</string>
+        <string name="title_activity_register">register</string>
+    <string name="title_activity_detail_fragment">DetailFragmentActivity</string>
+    <string name="title_activity_create_event">CreateEventActivity</string>
+    <string name="title_activity_ticket_registration">TicketRegistration</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+</resources>

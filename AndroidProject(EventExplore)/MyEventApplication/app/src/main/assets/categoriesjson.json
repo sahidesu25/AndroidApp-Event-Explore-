@@ -1,0 +1,45 @@
+[ { "CategoryImage" : "music",
+    "CategoryName" : "Music",
+    "Categoryid" : "1"
+  },
+  { "CategoryImage" : "health",
+    "CategoryName" : "Health",
+    "Categoryid" : "2"
+  },
+  { "CategoryImage" : "business",
+    "CategoryName" : "Business",
+    "Categoryid" : "3"
+  },
+  { "CategoryImage" : "filim",
+    "CategoryName" : "FilmAndMedia",
+    "Categoryid" : "4"
+  },
+  { "CategoryImage" : "sports",
+    "CategoryName" : "Sports",
+    "Categoryid" : "5"
+  },
+  { "CategoryImage" : "science",
+    "CategoryName" : "ScienceAndTech",
+    "Categoryid" : "6"
+  },
+  { "CategoryImage" : "fashion",
+    "CategoryName" : "Fashion",
+    "Categoryid" : "7"
+  },
+  { "CategoryImage" : "spirituality",
+    "CategoryName" : "Spirituality",
+    "Categoryid" : "8"
+  },
+  { "CategoryImage" : "government",
+    "CategoryName" : "Government",
+    "Categoryid" : "9"
+  },
+  { "CategoryImage" : "food",
+    "CategoryName" : "Food",
+    "Categoryid" : "10"
+  },
+  { "CategoryImage" : "others",
+    "CategoryName" : "Others",
+    "Categoryid" : "11"
+  }
+]

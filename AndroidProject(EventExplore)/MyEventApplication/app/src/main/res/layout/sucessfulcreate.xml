@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Thistle" >
+<RelativeLayout
+  android:layout_width="match_parent"
+    android:background="@color/Blue_Lavender"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/Thistle"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="100dp"
+            android:text=" Event Created Sucessfully"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:textColor="@color/Blue_DodgerBlue"
+            android:background="@color/Thistle"/>
+    </LinearLayout>
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:src="@drawable/sucess"
+    android:layout_height="match_parent"
+    android:background="@color/Blue_LightSteelBlue"
+
+    android:layout_below="@+id/linearLayout4" />
+
+
+
+
+
+</RelativeLayout>
+    </com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

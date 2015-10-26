@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/categoryimage"
+                android:layout_height="200dp"
+                android:layout_marginLeft="4dp"
+                android:src="@drawable/music"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="5dp"
+                android:scaleType="fitXY"
+                />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/categoryname"
+            android:background="@color/Black_transparent_black_hex_1"
+            android:text="Music"
+            android:textSize="25dp"
+
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/Gray_DimGray"
+ />
+
+    </RelativeLayout>

@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+ android:background="@drawable/bag4"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:text="Name"
+        android:textColor="@color/White_transparent_white_hex_15"
+
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:background="@color/Black_transparent_black_hex_5"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Email"
+        android:textColor="@color/White_transparent_white_hex_15"
+
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="match_parent"
+        android:background="@color/Black_transparent_black_hex_5"
+
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Username"
+        android:textColor="@color/White_transparent_white_hex_15"
+
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:background="@color/Black_transparent_black_hex_5"
+
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Password"
+        android:textColor="@color/White_transparent_white_hex_15"
+
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:background="@color/Black_transparent_black_hex_5"
+
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:background="@color/Blue_DarkSlateBlue"
+        android:layout_width="match_parent"
+        android:textColor="@color/White_transparent_white_hex_15"
+
+        android:textSize="20dp"
+
+        android:layout_height="wrap_content"
+        android:text="Register" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White_transparent_white_hex_15"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:text="Anything you need to sell the tickets and manage registration for any kind of event!!!"/>
+
+</LinearLayout>

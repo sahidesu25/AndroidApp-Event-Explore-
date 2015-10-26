@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue_Lavender" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/Blue_Lavender"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="           Event Location"
+        android:textStyle="bold"
+
+        android:textSize="30dp"
+        android:background="@color/Blue_LightBlue"/>
+
+
+
+
+
+    <TextView
+        android:text="State"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="@color/Thistle"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:background="@color/Thistle"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:background="@color/Thistle"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="Zipcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/zipcode"
+        android:layout_width="match_parent"
+        android:background="@color/Thistle"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+    <com.andexert.library.RippleView
+        android:id="@+id/more"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_toLeftOf="@+id/more2"
+        android:layout_margin="5dp"
+        rv_centered="true">
+
+    <Button
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/next"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_gravity="right" />
+    </com.andexert.library.RippleView>
+
+
+</LinearLayout>
+    </com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

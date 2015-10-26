@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.layout.myeventapplication.UnfoldableActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/savedevents" android:title="SavedEvents"
+        android:icon="@drawable/save2"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/CreateEvent" android:title="CreateEvent"
+        android:icon="@drawable/createsymbol"
+        android:orderInCategory="100" app:showAsAction="always" />
+
+    <item android:id="@+id/logout" android:title="Logout"
+        android:icon="@drawable/logouttttttt"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/Home" android:title="Home"
+        android:icon="@drawable/homeeeee"
+        android:orderInCategory="101" app:showAsAction="always" />
+
+
+</menu>

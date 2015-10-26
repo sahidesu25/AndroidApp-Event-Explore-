@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue_Lavender" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue_Lavender"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="                Event Host Information"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/Green_LightSeaGreen"
+        android:background="@color/Blue_LightBlue"/>
+
+
+
+    <TextView
+        android:text="Name"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/Blue_DodgerBlue"/>
+
+    <EditText
+        android:id="@+id/HostName"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+      android:textColor="@color/Blue_DodgerBlue"
+        android:background="@color/Thistle"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/Blue_DodgerBlue"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:background="@color/Thistle"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/Blue_DodgerBlue"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Contact Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/Blue_DodgerBlue"/>
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:background="@color/Thistle"
+        android:textColor="@color/Blue_DodgerBlue"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content" />
+
+    <com.andexert.library.RippleView
+        android:id="@+id/more"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_toLeftOf="@+id/more2"
+        android:layout_margin="5dp"
+        rv_centered="true">
+
+    <Button
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+
+        android:text="Submit"
+        android:id="@+id/hostnext"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_gravity="right" />
+    </com.andexert.library.RippleView>
+    <com.andexert.library.RippleView
+        android:id="@+id/more2"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:layout_toLeftOf="@+id/more2"
+        android:layout_margin="5dp"
+        rv_centered="true">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/next"
+        android:text="Next"/>
+    </com.andexert.library.RippleView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:background="@color/Thistle"
+        android:textColor="@color/Blue_DodgerBlue"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/Response"/>
+    <ImageView
+        android:layout_width="612dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="0.49" />
+
+
+
+
+
+
+</LinearLayout>
+    </com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>
